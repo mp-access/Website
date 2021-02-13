@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ACCESS <?= $title; ?></title>
+    <title>ACCESS | <?= $title; ?></title>
     <meta name="description"      content="">
     <meta name="keywords"         content="ACCESS, Course Organization, Assistive Course Creation and Evaluation Student Submission">
     <meta name="author"           content="ACCESS Team">
@@ -59,11 +59,12 @@
       </div>
     </div>
     <div id="slide_content">
+
+      <?php // Page Content ?>
       <main class="content">
-
         <?= $page; ?>
-
       </main>
+
       <footer class="clearfix">
         <div class="container">
           <div class="float-right">
@@ -72,11 +73,6 @@
         </div>
       </footer>
     </div>
-
-    <?php // Variablen ?>
-    <script>
-      const URL_PUBLIC = '<?php echo URL_PUBLIC; ?>';
-    </script>
 
     <?php // JS-Framework ?>
     <script src="/public/js/jquery-3.3.1.min.js"    type="text/javascript"></script>

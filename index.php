@@ -1,12 +1,6 @@
 <?php
 
-//error_reporting(0);
-//require __DIR__ . '/vendor/autoload.php';
-
-// CONSTS
-$URL_PUBLIC = "localhost:8080";
-
-// Redirect to home
+// default redirect to home
 $title = "home";
 $req = "home";
 
@@ -15,7 +9,7 @@ if(isset($_GET['url']))
   $req = $_GET['url'];
 }
 
-// Get request content
+// get request content
 $file_path = './pages/' . $req . '.php';
 
 if(file_exists($file_path))
@@ -31,21 +25,15 @@ else
   $page = file_get_contents('./pages/404.php', true);
 }
 
-// Eval php
+// eval php
 ob_start();
 eval('?>'.$page);
 $page = ob_get_contents();
 ob_end_clean();
 
-// Parse markdown
-/*
-$Parsedown = new Parsedown();
-$content = $Parsedown->text($page);
-*/
-
 $title = ucwords(str_replace('_', ' ', $title));
 
-// print template
+// render layout
 include_once('./layout.php');
 
 ?>
