@@ -1,4 +1,3 @@
 # Website
 
-Official website for ACCESS. 
-http://access.ch.tiberius.sui-inter.net/
+Official website for [ACCESS](https://access-tool.ch.tiberius.sui-inter.net/)
