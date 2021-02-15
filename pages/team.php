@@ -8,7 +8,7 @@
     </div>
     <br>
     <div class="row justify-content-center pt-3">
-      <div class="col-sm-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
+      <div class="col-sm-6 col-md-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
         <div class="profile panel">
           <div class="profile-picture-wrapper" style="background-image: url(/public/images/gallery/profile_alex_1.webp)">
             <div class="profile-picture hover-hide" style="background-image: url(/public/images/gallery/profile_alex_0.webp)" alt="team-member-alexander-hofmann"></div>
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
+      <div class="col-sm-6 col-md-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
         <div class="profile panel">
           <div class="profile-picture-wrapper" style="background-image: url(/public/images/gallery/profile_luka_1.webp)">
             <div class="profile-picture hover-hide" style="background-image: url(/public/images/gallery/profile_luka_0.webp)" alt="team-member-luka-lapanashvili"></div>
@@ -44,19 +44,28 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
+      <div class="col-sm-6 col-md-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
         <div class="profile panel">
           <div class="profile-picture-wrapper" style="background-image: url(/public/images/gallery/profile_sebastian_1.webp)">
             <div class="profile-picture hover-hide" style="background-image: url(/public/images/gallery/profile_sebastian_0.webp)" alt="team-member-sebastian-proksch"></div>
           </div>
           <h4>Sebastian Proksch</h4>
           <hr class="short">
-          <h5 class="mb-3"></h5>
+          <h5 class="mb-3">Senior Research Assistant</h5>
           <div class="icon-box">
+            <a href="http://proks.ch/" target="_blank">
+              <i data-feather="link"></i>
+            </a>
+            <a href="https://twitter.com/prksch" target="_blank">
+              <i data-feather="twitter"></i>
+            </a>
+            <a href="https://github.com/proksch" target="_blank">
+              <i data-feather="github"></i>
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
+      <div class="col-sm-6 col-md-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
         <div class="profile panel">
           <div class="profile-picture-wrapper" style="background-image: url(/public/images/gallery/profile_mervin_1.webp)">
             <div class="profile-picture hover-hide" style="background-image: url(/public/images/gallery/profile_mervin_0.webp)" alt="team-member-mervin-cheok"></div>
@@ -71,7 +80,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
+      <div class="col-sm-6 col-md-4 mb-5 scroll-reveal slide-down" data-reveal-id="reveal-team">
         <div class="profile panel">
           <div class="profile-picture-wrapper" style="background-image: url(/public/images/gallery/profile_philip_1.webp)">
             <div class="profile-picture hover-hide" style="background-image: url(/public/images/gallery/profile_philip_0.webp)" alt="team-member-philip-hofmann"></div>

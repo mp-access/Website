@@ -23,6 +23,9 @@
       <h1 style="display: none"><?= $title; ?></h1>
       <div class="container">
         <div class="h-flex">
+          <a class="logo" href="/">
+            <img src="/public/images/gallery/logo_access.png">
+          </a>
           <div class="burger-wrapper">
             <div class="hamburger">
               <div class="hamburger-box">
@@ -30,30 +33,27 @@
               </div>
             </div>
           </div>
-          <a class="logo" href="/">
-          <img src="/public/images/gallery/logo_access.png">
-          </a>
-          <nav class="main-nav d-none d-sm-block">
+          <nav class="main-nav d-none d-md-flex">
             <ul>
-              <li><a href="/"                                                   >Home</a></li>
-              <li><a href="https://mp-access.gitbook.io/access" target="_blank" >Wiki</a></li>
-              <li><a href="https://github.com/mp-access"        target="_blank" >GitHub</a></li>
-              <li><a href="team"                                                >Team</a></li>
-              <li><a href="getting_started"                                     >Get Started</a></li>
+              <li><a href="/" class="<?= $req == 'home' ? 'active':''; ?>"      >Home</a></li>
+              <li><a href="https://mp-access.gitbook.io/access" target="_blank" >Wiki<i data-feather="arrow-up-right"></i></a></li>
+              <li><a href="https://github.com/mp-access"        target="_blank" >GitHub<i data-feather="arrow-up-right"></i></a></li>
+              <li><a href="team" class="<?= $req == 'team' ? 'active':''; ?>"   >Team</a></li>
+              <li><a href="getting_started" class="<?= $req == 'getting_started' ? 'active':''; ?>" >Get Started</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <div id="slide_nav">
+    <div id="slide_nav" class="d-block d-md-none">
       <div class="side-nav-content">
         <nav class="slide-nav">
           <ul>
-            <li><a href="/"                                                   >Home</a></li>
-            <li><a href="https://mp-access.gitbook.io/access" target="_blank" >Wiki</a></li>
-            <li><a href="https://github.com/mp-access"        target="_blank" >GitHub</a></li>
-            <li><a href="team"                                                >Team</a></li>
-            <li><a href="getting_started"                                     >Get Started</a></li>
+          <li><a href="/" class="<?= $req == 'home' ? 'active':''; ?>"      >Home</a></li>
+              <li><a href="https://mp-access.gitbook.io/access" target="_blank" >Wiki</a></li>
+              <li><a href="https://github.com/mp-access"        target="_blank" >GitHub</a></li>
+              <li><a href="team" class="<?= $req == 'team' ? 'active':''; ?>"   >Team</a></li>
+              <li><a href="getting_started" class="<?= $req == 'getting_started' ? 'active':''; ?>" >Get Started</a></li>
           </ul>
         </nav>
       </div>

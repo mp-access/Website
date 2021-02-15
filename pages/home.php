@@ -7,7 +7,7 @@
           <p>The Assistive Course Creation and Evaluation Student Submission tool (ACCESS) is designed to help educational establishments create courses and automatically evaluates student submissions.&nbsp;</p>
         </h4>
         <div>
-          <a href="https://access.alpm.io" target="_blank" class="style-btn mr-4">
+          <a href="https://info1-exercises.ifi.uzh.ch" target="_blank" class="style-btn mr-4">
             <i data-feather="play-circle"></i>
             Try Demo
           </a>
@@ -28,40 +28,40 @@
     <div class="row justify-content-center pt-3">
       <div class="col-sm-10">
         <div class="row justify-content-center">
-          <div class="col-sm-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
+          <div class="col-md-6 col-lg-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
             <div class="panel v-flex">
               <i data-feather="git-branch" class="icon-h3 mb-3"></i>
               <h3>Course Versioning</h3>
               <hr>
               <p>By using git, we&nbsp;inherently benefit from its&nbsp;features such as versioning, collaboration and rollback.</p>
               <br>
-              <a href="#" class="push-down">
+              <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
                 Learn More 
                 <i data-feather="chevron-right"></i>
               </a>
             </div>
           </div>
-          <div class="col-sm-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
+          <div class="col-md-6 col-lg-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
             <div class="panel v-flex">
               <i data-feather="edit" class="icon-h3 mb-3"></i>
               <h3>Online Editing</h3>
               <hr>
               <p>Students can enroll in courses and solve the exercises online with our online editor.</p>
               <br>
-              <a href="#" class="push-down">
+              <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
                 Learn More 
                 <i data-feather="chevron-right"></i>
               </a>
             </div>
           </div>
-          <div class="col-sm-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
+          <div class="col-md-6 col-lg-4 scroll-reveal slide-down mb-3" data-reveal-id="benefit-reveal">
             <div class="panel v-flex">
               <i data-feather="star" class="icon-h3 mb-3"></i>
               <h3>Instant Feedback</h3>
               <hr>
               <p>Students will get instant feedback on their submissions with our automated grading system.</p>
               <br>
-              <a href="#" class="push-down">
+              <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
                 Learn More 
                 <i data-feather="chevron-right"></i>
               </a>
@@ -75,17 +75,17 @@
 <section class="page-section blue-break" data-id="statistic-break">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 text-center scroll-reveal slide-up" data-reveal-id="statistic-reveal">
+      <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="users" class="icon-h3 mb-2"></i>
         <h4>Students Served</h4>
         <h3 class="autoincrement">483</h3>
       </div>
-      <div class="col-sm-4 text-center scroll-reveal slide-up" data-reveal-id="statistic-reveal">
+      <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="check-square" class="icon-h3 mb-2"></i>
         <h4>Submission Graded</h4>
         <h3 class="autoincrement">23382</h3>
       </div>
-      <div class="col-sm-4 text-center scroll-reveal slide-up" data-reveal-id="statistic-reveal">
+      <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="play-circle" class="icon-h3 mb-2"></i>
         <h4>Code Executed</h4>
         <h3 class="autoincrement">163263</h3>
@@ -168,47 +168,47 @@
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <ul class="row justify-content-center nav" id="framework-tab" role="tablist">
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-spring-boot-tab" data-toggle="tab" href="#pills-spring-boot" role="tab" >
               <img src="/public/images/gallery/logo_spring_boot.png" style="filter: saturate(0%) grayscale(100%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-react-tab" data-toggle="tab" href="#pills-react" role="tab">
               <img src="/public/images/gallery/logo_react.png" style="filter: saturate(0%) grayscale(100%) brightness(80%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-keycloak-tab" data-toggle="tab" href="#pills-keycloak" role="tab">
               <img src="/public/images/gallery/logo_keycloak.png" style="filter: saturate(0%) grayscale(100%) brightness(160%) contrast(0.8)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-mongo-db-tab" data-toggle="tab" href="#pills-mongo-db" role="tab">
               <img src="/public/images/gallery/logo_mongo_db.png" style="filter: saturate(0%) grayscale(100%) brightness(200%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-postgres-tab" data-toggle="tab" href="#pills-postgres" role="tab">
               <img src="/public/images/gallery/logo_postgres.png" style="filter: saturate(0%) grayscale(100%) brightness(200%) contrast(0.8)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-github-tab" data-toggle="tab" href="#pills-github" role="tab">
               <img src="/public/images/gallery/logo_github.png" style="filter: contrast(0.1) brightness(130%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-circle-ci-tab" data-toggle="tab" href="#pills-circle-ci" role="tab">
               <img src="/public/images/gallery/logo_circle_ci.png" style="filter: contrast(0.1) brightness(130%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-docker-tab" data-toggle="tab" href="#pills-docker" role="tab">
               <img src="/public/images/gallery/logo_docker.png" style="filter: saturate(0%) grayscale(100%) brightness(150%)">
             </a>
           </li>
-          <li class="col-sm-2 mb-4 col-6 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
+          <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
             <a class="panel vendor-logo nav-link" id="pills-gradle-tab" data-toggle="tab" href="#pills-gradle" role="tab">
               <img src="/public/images/gallery/logo_gradle.png" style="filter: saturate(0%) grayscale(100%) contrast(0.3) brightness(150%)">
             </a>
