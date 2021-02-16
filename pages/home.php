@@ -78,17 +78,17 @@
       <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="users" class="icon-h3 mb-2"></i>
         <h4>Students Served</h4>
-        <h3 class="autoincrement">483</h3>
+        <h3 class="autoincrement">1010</h3>
       </div>
       <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="check-square" class="icon-h3 mb-2"></i>
         <h4>Submission Graded</h4>
-        <h3 class="autoincrement">23382</h3>
+        <h3 class="autoincrement">54500</h3>
       </div>
       <div class="col-sm-4 text-center scroll-reveal slide-up mb-4 mb-sm-0" data-reveal-id="statistic-reveal">
         <i data-feather="play-circle" class="icon-h3 mb-2"></i>
         <h4>Code Executed</h4>
-        <h3 class="autoincrement">163263</h3>
+        <h3 class="autoincrement">378783</h3>
       </div>
     </div>
   </div>
@@ -318,7 +318,7 @@
 <section class="page-section" data-id="course-admin">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 mb-4 mb-sm-0">
         <div>
           <div class="panel">
             <h4>Course Structure</h4>
@@ -543,7 +543,7 @@
 <section class="page-section" data-id="info-video">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 mb-4 mb-sm-0">
         <div class="v-flex v-center">
           <h3 class="pb-3">Project Overview</h3>
           <h4>Here is a short video going over the general structure of ACCESS and the context it was created in.</h4>
