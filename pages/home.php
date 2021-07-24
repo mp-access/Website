@@ -7,8 +7,8 @@
           <p>The Assistive Course Creation and Evaluation Student Submission tool (ACCESS) is designed to help educational establishments create courses and automatically evaluates student submissions.&nbsp;</p>
         </h4>
         <div>
-          <a href="https://info1-exercises.ifi.uzh.ch" target="_blank" class="style-btn mr-4">
-            <i data-feather="play-circle"></i>
+          <a href="demo" class="style-btn mb-3 mb-md-0 mr-md-4">
+            <i data-feather="compass"></i>
             Try Demo
           </a>
           <a href="team" class="style-btn ghost">
@@ -36,7 +36,7 @@
               <p>By using git, we&nbsp;inherently benefit from its&nbsp;features such as versioning, collaboration and rollback.</p>
               <br>
               <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
-                Learn More 
+                Learn More
                 <i data-feather="chevron-right"></i>
               </a>
             </div>
@@ -49,7 +49,7 @@
               <p>Students can enroll in courses and solve the exercises online with our online editor.</p>
               <br>
               <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
-                Learn More 
+                Learn More
                 <i data-feather="chevron-right"></i>
               </a>
             </div>
@@ -62,7 +62,7 @@
               <p>Students will get instant feedback on their submissions with our automated grading system.</p>
               <br>
               <a href="https://mp-access.gitbook.io/access/" target="_blank" class="push-down">
-                Learn More 
+                Learn More
                 <i data-feather="chevron-right"></i>
               </a>
             </div>
@@ -169,7 +169,7 @@
       <div class="col-sm-10">
         <ul class="row justify-content-center nav" id="framework-tab" role="tablist">
           <li class="col-6 col-sm-4 col-lg-2 mb-4 nav-item scroll-reveal slide-up" data-reveal-id="frameworks">
-            <a class="panel vendor-logo nav-link" id="pills-spring-boot-tab" data-toggle="tab" href="#pills-spring-boot" role="tab" >
+            <a class="panel vendor-logo nav-link" id="pills-spring-boot-tab" data-toggle="tab" href="#pills-spring-boot" role="tab">
               <img src="/public/images/gallery/logo_spring_boot.png" style="filter: saturate(0%) grayscale(100%)">
             </a>
           </li>
@@ -225,7 +225,7 @@
               <p>We use Spring Boot as a basis for our main course server. The server handles indexing of course data and serves it to the frontend.</p>
             </h4>
             <a href="https://spring.io/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -235,7 +235,7 @@
               <p>Our student web frontend is built on React JS.</p>
             </h4>
             <a href="https://reactjs.org" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -245,7 +245,7 @@
               <p>Keycloak is our main authentication server, which handles all the user related services such as registration, role assignment as well as web authentication.</p>
             </h4>
             <a href="https://www.keycloak.org/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -255,7 +255,7 @@
               <p>Student submissions including a snapshot of their current workspace as well as evaluation data are stored in a Mongo DB instance.</p>
             </h4>
             <a href="https://www.mongodb.com/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -265,7 +265,7 @@
               <p>We use Postgres as our main database to securily store user data.</p>
             </h4>
             <a href="https://www.postgresql.org/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -275,7 +275,7 @@
               <p>We use GitHub as our primary code repository, issue tracker as well as a hub for our organization.</p>
             </h4>
             <a href="https://github.com/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -285,7 +285,7 @@
               <p>Circle CI helps us automate a large portion of our deveops&nbsp;pipeline such as testing as well as deployment.</p>
             </h4>
             <a href="https://circleci.com/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -295,7 +295,7 @@
               <p>For our code execution and grading, we use Docker to encapsulate a virtual enviroment and run student code.&nbsp;</p>
             </h4>
             <a href="https://www.docker.com/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -306,7 +306,7 @@
               <p>&nbsp;</p>
             </h4>
             <a href="https://gradle.org/" target="_blank">
-              Visit Website 
+              Visit Website
               <i data-feather="arrow-up-right"></i>
             </a>
           </div>
@@ -501,24 +501,24 @@
     <span class="hljs-string">"student_2@uni.ch"</span>,
   ]
 }</code></pre>
-        </div>
-        <div class="tab-pane fade" id="pills-file-assignment-config" role="tabpanel">
-          <h3 class="pb-3">Assignment Config.json</h3>
-          <h4>The config file in context of the assignment specifies when the assignment is published and when the submissions are closed.</h4>
-          <br>
-          <pre><code class="lang-json hljs">{
+            </div>
+            <div class="tab-pane fade" id="pills-file-assignment-config" role="tabpanel">
+              <h3 class="pb-3">Assignment Config.json</h3>
+              <h4>The config file in context of the assignment specifies when the assignment is published and when the submissions are closed.</h4>
+              <br>
+              <pre><code class="lang-json hljs">{
   <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Chapter I"</span>,
   <span class="hljs-attr">"description"</span>: <span class="hljs-string">"Introduction to Python"</span>,
   <span class="hljs-attr">"publishDate"</span>: <span class="hljs-string">"2019-09-25 20:08"</span>,
   <span class="hljs-attr">"dueDate"</span>: <span class="hljs-string">"2020-12-04 08:00"</span>
 }</code>
       </pre>
-    </div>
-    <div class="tab-pane fade" id="pills-file-exercise-config" role="tabpanel">
-      <h3 class="pb-3">Exercise Config.json</h3>
-      <h4>The Exercise config specifies the type of the exercise with the type attribute. In this example, we specify a code exercise.</h4>
-      <br>
-      <pre><code class="lang-json hljs">{
+            </div>
+            <div class="tab-pane fade" id="pills-file-exercise-config" role="tabpanel">
+              <h3 class="pb-3">Exercise Config.json</h3>
+              <h4>The Exercise config specifies the type of the exercise with the type attribute. In this example, we specify a code exercise.</h4>
+              <br>
+              <pre><code class="lang-json hljs">{
   <span class="hljs-attr">"title"</span>: <span class="hljs-string">"IF Conditions"</span>,
   <span class="hljs-attr">"type"</span>:<span class="hljs-string">"code"</span>,
   <span class="hljs-attr">"language"</span>:<span class="hljs-string">"python"</span>,
@@ -526,19 +526,19 @@
   <span class="hljs-attr">"maxScore"</span>: <span class="hljs-number">10</span>
 }</code>
   </pre>
-</div>
-<div class="tab-pane fade" id="pills-file-exercise-description" role="tabpanel">
-  <h3>Description.md</h3>
-  <h4><br>
-    The Description.md file contains the question of the exercise. As this is a markdown file, we support headings, lists, code snippets, images and links in the question text.
-  </h4>
-  <p>&nbsp;</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+            </div>
+            <div class="tab-pane fade" id="pills-file-exercise-description" role="tabpanel">
+              <h3>Description.md</h3>
+              <h4><br>
+                The Description.md file contains the question of the exercise. As this is a markdown file, we support headings, lists, code snippets, images and links in the question text.
+              </h4>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="page-section" data-id="info-video">
   <div class="container">

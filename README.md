@@ -1,5 +1,3 @@
 ![Logo](./public/images/gallery/logo_access.png)
 
-# ACCESS Website
-
-Official website for [ACCESS](https://access-tool.ch)
+Official website for ACCESS deployed on [access-tool.ch](https://access-tool.ch)
